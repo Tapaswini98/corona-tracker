@@ -9,9 +9,7 @@ const Cards = (confirmed , recovered , deaths,lastUpdate)=> {
             <Grid container spacing={3} justify="center">
               <Grid item component={Card} >
                   <CardContent>
-                      <Typography color="textSecondary" gutterBottom>
-                          Infected
-                      </Typography>
+                      <Typography color="textSecondary" gutterBottom> Infected</Typography>
                         <Typography variant="h5">{confirmed.value}</Typography>
                       <Typography color="textSecondary">REAL DATE</Typography>
                       <Typography variant="body2">Number of active cases of COVID-19</Typography>
@@ -20,9 +18,7 @@ const Cards = (confirmed , recovered , deaths,lastUpdate)=> {
               </Grid>
               <Grid item component={Card} >
                   <CardContent>
-                      <Typography color="textSecondary" gutterBottom>
-                          Recovered
-                      </Typography>
+                      <Typography color="textSecondary" gutterBottom>Recovered </Typography>
                       <Typography variant="h5">{recovered.value}</Typography>
                       <Typography color="textSecondary">REAL DATE</Typography>
                       <Typography variant="body2">Number of recoveries from  COVID-19</Typography>
@@ -31,9 +27,7 @@ const Cards = (confirmed , recovered , deaths,lastUpdate)=> {
               </Grid>
               <Grid item component={Card} >
                   <CardContent>
-                      <Typography color="textSecondary" gutterBottom>
-                          Deaths
-                      </Typography>
+                      <Typography color="textSecondary" gutterBottom>Deaths</Typography>
                        <Typography variant="h5">{deaths.value}</Typography>
                       <Typography color="textSecondary">REAL DATE</Typography>
                       <Typography variant="body2">Number of deaths due to COVID-19</Typography>
